@@ -1,9 +1,7 @@
-import React, {Component} from 'react'
+//@flow
+// import Button from "./Button";
+// import Theme from "./theme";
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+// export { Theme, Button };
+export { defualt as Theme } from "./theme";
+export { defualt as Button } from "./Button";
